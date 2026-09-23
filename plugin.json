@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "glasser",
+  "version": "0.1.0",
+  "description": "Glasser's hosted MCP for Hermes: search, inspect and run 1,000+ paid data endpoints (people, companies, SEO, web, social, markets) with one key. Sign in from the client; pay per call.",
+  "author": {
+    "name": "Glasser",
+    "url": "https://glasser.ai"
+  },
+  "homepage": "https://glasser.ai/docs/mcp-server",
+  "repository": "https://github.com/glasser-ai/hermes-plugin-glasser",
+  "license": "MIT",
+  "keywords": ["glasser", "data", "enrichment", "search", "seo", "mcp"]
+}
