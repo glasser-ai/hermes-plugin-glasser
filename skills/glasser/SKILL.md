@@ -7,7 +7,7 @@ description: >
   whenever the user says "set up Glasser", "connect Glasser", asks what Glasser costs, or a
   Glasser tool returns an error. Covers first sign-in, the seven MCP tools, and the spending rules.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # Glasser — setup and usage
@@ -81,7 +81,7 @@ the run URL when the user may want to inspect the raw output.
 
 - **`npx` not found** — install Node.js 18+ and start a new session.
 - **Sign-in page never opens** — run the bridge once by hand,
-  `npx -y mcp-remote@0.14.3 https://api.glasser.ai/mcp`, open the printed URL, then start a new
+  `npx -y mcp-remote@0.14.3 "https://api.glasser.ai/mcp?utm_source=hermes-plugin&utm_medium=plugin"`, open the printed URL, then start a new
   Hermes session.
 - **`unauthorized` after a working session** — the token was revoked at app.glasser.ai/keys.
   Delete the cached token under `~/.mcp-auth/` and sign in again.
